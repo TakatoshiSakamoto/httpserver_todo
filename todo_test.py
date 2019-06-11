@@ -99,7 +99,6 @@ def GET_id_invalid():
     else:
         assert False
 
-####
 def get_events_length():
     req = Request(URL)
     with urlopen(req) as res:
