@@ -54,7 +54,6 @@ class RequestHandler(BaseHTTPRequestHandler):
             self.end_headers()
             return
 
-        
         if(len(path_elements) > 3):
             try:
                 id = int(path_elements[3])
